@@ -3,8 +3,6 @@
     src: url("../fonts/ProductSans.ttf");
 }
 
-
-
 * {
     font-family: "ProductSans";
     margin: 0;
@@ -13,14 +11,14 @@
 .headergeneral {
     /* border: 3px solid red; */
     height: 135px;
-    width: 99.7%;
+    width: 99.6%;
     display: flex;
 }
 
 .headercontent {
     /* border: 3px solid rgb(33, 119, 7); */
     height: 130px;
-    width: 660px;
+    width: 80%;
     margin: auto;
     display: flex;
 }
@@ -28,8 +26,10 @@
 .logo {
     /* border: 3px solid rgb(212, 82, 7); */
     height: 125px;
-    width: 160px;
+    width: 640px;
     left: 0;
+    background-image: url('../img/logo.png');
+    background-size: cover;
 }
 
 .titlebuttons {
@@ -40,23 +40,19 @@
 .titlelocale {
     /* border: 3px solid rgb(212, 7, 181); */
     height: 60%;
-    width: 99.5%;
-}
-
-.buttonsgroup {
-    /* border: 3px solid rgb(7, 113, 212); */
-    height: 31%;
-    width: 99.5%;
-    display: flex;
-    text-align: right;
+    width: 85%;
+    float: right;
 }
 
 .buttons {
     /* border: 3px solid rgb(7, 212, 195); */
-    height: 100%;
-    width: 100%;
-    margin-right: 10px;
-    margin-top: -5px;
+    /* height: 100%; */
+    width: 79.5%;
+    /* float: right; */
+    margin-right: 20%;
+    margin-top: 0px;
+    padding-left: 5%;
+    display: flex;
 }
 
 .navbar {
@@ -77,7 +73,13 @@
     font-size: 20px;
     text-transform: uppercase;
     margin-left: 35px;
-    color: #fff;
+    color: #000;
+}
+
+.navbaritem:hover {
+    color: #cd9e66;
+    transition: 0.2s;
+    cursor: pointer;
 }
 
 .selected {
@@ -94,6 +96,7 @@
 .selectlang {
     float: right;
     display: flex;
+    margin-top: 40px;
 }
 
 .currentlang {
@@ -150,3 +153,30 @@
     height: 300px;
     margin-top: 50px;
 }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    transition: 0.3s;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    text-align: left;
+    background-color: #cd9e66;
+    color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    border-radius: 4px;
+    margin-right: 35px;
+    transition: 0.3s;
+    
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    transition: 0.3s;
+  }
