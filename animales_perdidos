@@ -1,0 +1,144 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/lost.css">
+  <link rel="stylesheet" href="fontawesomepro/css/all.css">
+  <title>Animales perdidos | Animal Protection</title>
+
+  <!-- Carousel -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+  <div class="header">
+    <div class="menu">
+      <a href="index.html"><img class="logo" src="img/logo.png"></a>
+      <div class="buttons">
+        <a class="url" href="index.html"><p class="bttn">Inicio</p></a>
+        <div class="dropdown">
+          <p class="bttn">Protectora</p>
+          <div class="dropdown-content">
+            <a href="sobre.html" class="urlnav"><p class="listitem">Quiénes somos</p></a>
+            <p class="listitem">Contacto</p>
+          </div>
+        </div>
+        <div class="dropdown">
+          <p class="bttn navbaritem">Animales</p>
+          <div class="dropdown-content">
+            <p class="listitem">Cómo ayudarlos</p>
+            <p class="listitem">Nuestros animales</p>
+          </div>
+        </div>
+        <p class="bttn">Tienda</p>
+      </div>
+      <div class="selections">
+        <div class="lang">
+          <p class="locale lselected">ES</p>
+          <p class="locale">CAT</p>
+          <p class="locale">ENG</p>
+        </div>
+        <div class="icons">
+          <i class="fas fa-search lens"></i>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  </div>
+
+
+  <!-- Contents -->
+  <hr>
+
+  <h1 class="title">Animales perdidos</h1>
+
+  <p class="content">
+    Esta es una zona completamente libre. Siéntete en todo tu derecho de encontrar a tu mascota perdida, déjanos 
+    ayudarte.
+  </p>
+  <p class="content">
+    Publica una foto junto con una breve descripción de tu mascota perdida y se les notificará a nuestros usuarios 
+    de tu zona más cercana sobre lo ocurrido.
+  </p>
+  <p class="content">
+    ¡Ayudémonos entre todos!
+  </p>
+
+  <hr>
+
+  <div class="posts">
+    <div class="post">
+      <img class="imgpost" src="img/lost/01.jpg">
+      <p class="txtpost">Sóller, Mallorca</p>
+    </div>
+    <div class="post">
+      <img class="imgpost" src="img/lost/01.jpg">
+      <p class="txtpost">Sóller, Mallorca</p>
+    </div>
+    <div class="post">
+      <img class="imgpost" src="img/lost/01.jpg">
+      <p class="txtpost">Sóller, Mallorca</p>
+    </div>
+    <div class="post">
+      <img class="imgpost" src="img/lost/01.jpg">
+      <p class="txtpost">Sóller, Mallorca</p>
+    </div>
+    <div class="post">
+      <img class="imgpost" src="img/lost/01.jpg">
+      <p class="txtpost">Sóller, Mallorca</p>
+    </div>
+    <div class="post">
+      <img class="imgpost" src="img/lost/01.jpg">
+      <p class="txtpost">Sóller, Mallorca</p>
+    </div>
+    <div class="post">
+      <img class="imgpost" src="img/lost/01.jpg">
+      <p class="txtpost">Sóller, Mallorca</p>
+    </div>
+    <div class="post">
+      <img class="imgpost" src="img/lost/01.jpg">
+      <p class="txtpost">Sóller, Mallorca</p>
+    </div>
+    <div class="post">
+      <img class="imgpost" src="img/lost/01.jpg">
+      <p class="txtpost">Sóller, Mallorca</p>
+    </div>
+    <div class="post">
+      <img class="imgpost" src="img/lost/01.jpg">
+      <p class="txtpost">Sóller, Mallorca</p>
+    </div>
+  </div>
+  
+
+  <!-- Footer -->
+  <div class="footer">
+    <div class="support">
+      <p class="hsupport">Atención al cliente</p>
+      <p class="opsupport">Preguntas frecuentes</p>
+      <p class="opsupport">Formulario de contacto</p>
+    </div>
+
+    <div class="main">
+      <p class="donatebtn">Dona</p>
+    </div>
+
+    <div class="social">
+      <p class="hsocial">Síguenos</p>
+      <i class="fab fa-instagram socicon sinsta"></i>
+      <i class="fab fa-twitter socicon stwitter"></i>
+      <i class="fab fa-facebook-f socicon sface"></i>
+      <i class="fas fa-envelope socicon"></i>
+    </div>
+  </div>
+
+</body>
+
+</html>
